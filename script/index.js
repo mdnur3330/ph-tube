@@ -45,7 +45,7 @@ const showVideos =(videos)=>{
     if(videos.length  == 0){
         videosContainer.innerHTML = `
         <div class="col-span-full items-center space-y-5 text-center text-3xl font-bold">
-        <img class="mx-auto" src="/img/Icon.png" alt="">
+        <img class="mx-auto" src="img/Icon.png" alt="">
         <h2>Oops!! Sorry, There is no <br> content here</h2>
         </div>
         `;
